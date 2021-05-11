@@ -1,0 +1,36 @@
+.App {
+float: none;
+  display: grid;
+  grid-template-areas:
+      "hed"
+      "cont"
+      "en  ";
+  border-color: red;
+  margin: 0%;
+  padding: 0%;
+
+}
+.header{
+grid-area: hed;
+  margin: 0%;
+  padding: 0%;
+}
+.content{
+  grid-area: cont;
+  margin: 0%;
+  padding: 0%;
+}
+.end{
+
+grid-area: en;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

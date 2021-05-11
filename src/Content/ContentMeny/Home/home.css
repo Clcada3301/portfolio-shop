@@ -1,0 +1,68 @@
+.home{
+    display: grid;
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(90deg, #faf0cd, #fab397);
+
+
+}
+.welkom{
+    grid-area: w;
+    font-family: Brush Script MT, Brush Script Std, cursive
+}
+.texts{
+    grid-area: t;
+    font-family: Bradley Hand, cursive;
+}
+.bot{
+    display: grid;
+    grid-template-areas:
+            "w..."
+    "...t";
+}
+.korm{
+    grid-area: k;
+
+}
+.tCorm{
+grid-area: tc;
+    font-family: Trattatello, fantasy;
+    position: relative ;
+    left: 300px;
+
+    border: thick double ;
+
+
+
+}
+
+.animal{
+    grid-area: a;
+}
+.tAnimal{
+grid-area: ta;
+    font-family: Trattatello, fantasy;
+    position: relative ;
+    right: 300px;
+
+    border: thick double ;
+}
+
+.snaraga{
+    grid-area: s;
+}
+.tSnaraga{
+grid-area: ts;
+    font-family: Trattatello, fantasy;
+    position: relative ;
+    left: 300px;
+
+    border: thick double ;
+ }
+.infa{
+    display: grid;
+    grid-template-areas:
+      "k tc..."
+      "...ta a"
+      "s ts...  ";
+}
