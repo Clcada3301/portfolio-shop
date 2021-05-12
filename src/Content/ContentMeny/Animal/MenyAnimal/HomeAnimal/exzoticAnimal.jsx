@@ -1,8 +1,8 @@
-function ExzoticCanimal(){
+function ExzoticAanimal(){
     return(
         <div>
             ExzoticCanimal
         </div>
     )
 }
-export default ExzoticCanimal;
+export default ExzoticAanimal;

@@ -1,0 +1,18 @@
+.animalBody{
+
+    display: grid;
+    grid-template-areas:
+            "r r r r r r r m"
+            "r r r r r r r m"
+
+;
+}
+.many{
+    grid-area: m;
+    color: #f5f5f5;
+    border: thick double;
+    font-family: Trattatello, fantasy;
+}
+.route{
+    grid-area: r;
+}

@@ -35,3 +35,30 @@
     border-radius: 2em;
     transition: all .3s ease-out;
 }
+.button{
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    line-height: 25px;
+    border-radius: 25px;
+    margin: 10px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+
+}
+.button:hover
+{
+    background: #37bbd9;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    color: black;
+    transform: translateY(-7px);
+}
