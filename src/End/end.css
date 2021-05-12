@@ -1,3 +1,28 @@
 .end{
-    background: linear-gradient(4deg, #5462c3, #ba872c)
+
+    background: linear-gradient(4deg, #5462c3, #ba872c);
+
+
+
+
+;
+
+}
+.mail{
+    grid-area: m;
+    font: 15px "Trebuchet MS", "Lucida Sans";
+}
+.info{
+    grid-area: i;
+    font: 15px "Trebuchet MS", "Lucida Sans";
+}
+.github{
+    grid-area: g;
+    font: 15px "Trebuchet MS", "Lucida Sans";
+
+}
+.github button{
+color: black;
+background: #939ba3;
+    border-radius: 20px;
 }

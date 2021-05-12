@@ -2,20 +2,22 @@
 import './end.css'
 function End(){
     const urlBrowser="https://github.com/Clcada3301/portfolio-shop"
-   const github=()=>{
-        const github=urlBrowser
-        return(
-            github
-        )
+    const onclicks =()=> {
+        window.location.assign('https://github.com/Clcada3301/portfolio-shop');
     }
     return(
         <div className='end'>
-            <a href="https://mail.google.com/mail/u/0/#sent?compose=new">policialvova@gmail.com </a>
-            <button onClick={()=>{github()}}></button>
-            <a href="https://github.com/Clcada3301/portfolio-shop"> GitHub</a>
-            <p>м.т:0958646655</p>
-            <p>Kondratenko Oleksii</p>
-            <p>Create by Cicada</p>
+            <div className='mail'>
+            <a href="https://mail.google.com/mail/u/0/#sent?compose=GTvVlcRzDQkLljMJkprCrTbmpkppNVVsgcBgDfQdGpGZdfQKkbdQWlvlwcQFlWNlHVwTjnXKsHlCP">policialvova@gmail.com </a>
+            </div>
+            <div className='github'>
+            <button onClick={()=>{onclicks()}}>GitHub</button>
+        </div>
+            <div className='info'>
+            <p>м.т:0958640000
+            Kondratenko Oleksii
+            Create by Cicada</p>
+             </div>
         </div>
     )
 }
