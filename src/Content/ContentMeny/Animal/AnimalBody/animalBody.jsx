@@ -14,8 +14,7 @@ function AnimalBody(){
         <div className='animalBody'>
             <div className='route'>
                 <BrowserRouter>
-                    <Dogs slides={SliderImg}/>
-                <Route path='/animal/dog'   component={Dogs} />
+                <Route path='/animal/dog'   component={()=> <Dogs slides={SliderImg}/>}/>
                 <Route path='/animal/exzotic' component={Cat} />
                 <Route/>
                 <Route/>
