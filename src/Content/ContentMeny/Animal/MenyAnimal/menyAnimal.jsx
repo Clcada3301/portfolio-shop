@@ -23,7 +23,7 @@ return(
     return(
         <div>
            <div className='button'>
-           <p onClick={()=>{ShowMeny()}}>Домашние животные</p>
+           <p onClick={()=>{ShowMeny()}}>Home Animal</p>
 
            </div>
             {menyOpen?(
@@ -44,14 +44,14 @@ return(
 
 
             <div >
-                <p className='button'>Экзотические Животные</p>
+                <p className='button'>Exotic animal</p>
             </div>
 
             <div>
-                <p className='button'>Рыбки</p>
+                <p className='button'>Fishes</p>
             </div>
             <div >
-                <p className='button'>Грызуны</p>
+                <p className='button'>Rodents</p>
             </div>
             <div >
                 <a className='button' href='/home'>Back</a>

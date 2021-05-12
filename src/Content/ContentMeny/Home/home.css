@@ -8,7 +8,8 @@
 }
 .welkom{
     grid-area: w;
-    font-family: Brush Script MT, Brush Script Std, cursive
+    font-family: Brush Script MT, Brush Script Std, cursive;
+
 }
 .texts{
     grid-area: t;
@@ -22,6 +23,10 @@
 }
 .korm{
     grid-area: k;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75);
+
 
 }
 .tCorm{
@@ -35,9 +40,19 @@ grid-area: tc;
 
 
 }
+.tCorm:hover{
+    background: linear-gradient(90deg, #fae898, #41c1e8);
+    background-image: url("https://static4.depositphotos.com/1001686/338/i/600/depositphotos_3380237-stock-photo-gold-wheat-and-blue-sky.jpg");
+    color: white;
+    transition-duration: 2s;
+    transform: scale(1.2);
+}
 
 .animal{
     grid-area: a;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75);
 }
 .tAnimal{
 grid-area: ta;
@@ -47,9 +62,22 @@ grid-area: ta;
 
     border: thick double ;
 }
+.tAnimal:hover{
+    background: linear-gradient(90deg, #fae898, #41c1e8);
+    background-image: url("https://www.1zoom.ru/prev/326/325943.jpg");
+    color: white;
+    transition-duration: 2s;
+    transform: scale(1.2);
+}
 
 .snaraga{
     grid-area: s;
+
+
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+     -box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75);
+
 }
 .tSnaraga{
 grid-area: ts;
@@ -58,11 +86,22 @@ grid-area: ts;
     left: 300px;
 
     border: thick double ;
+
  }
+.tSnaraga:hover{
+    background: linear-gradient(90deg, #fae898, #41c1e8);
+background-image: url("https://st2.depositphotos.com/4164793/8791/i/600/depositphotos_87918682-stock-photo-dog-mops-dog-walking-in.jpg");
+
+    transition-duration: 2s;
+    transform: scale(1.2);
+}
 .infa{
     display: grid;
     grid-template-areas:
       "k tc..."
       "...ta a"
       "s ts...  ";
+}
+.white{
+    color: white;
 }

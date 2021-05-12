@@ -8,14 +8,15 @@ function Home(){
         <div className='home'>
             <div className='bot'>
 
-                    <div className='welkom'>  <h1 >Добро пожаловать в наш уютный магазин</h1></div>
-                <div className='texts'> <h4 >мы занимаемся животными уже более 20 лет по всей европе,наша организация
-                        началась как блоготворительный фонд мы начали помогать исчезающим видам искали та защищали
-                        животных по всему миру и со временем начали помогать людям содержать животных разных
-                        видов Наша компания может вам предложить к покупке начиная от рыбок крыс кошек собак
-                        заканчивая екзотическими животными такие как змеи паук рыси кракадилы и даже тигры
-                        Купив любое животное у нас вы сраху ж можете и приобрести для него еду домики и любое
-                        снарежения для вашего животного Наш осортимент Большой
+                    <div className='welkom'>  <h1 >Welcome to our cozy store</h1></div>
+                <div className='texts'> <h4>we have been dealing with animals for over 20 years throughout Europe, our organization
+                    <span className='white'> started as a blogging foundation we started helping  endangered species</span> looking for and protecting
+                    animals around the world and over time began<span className='white'>  to help people keep animals of different
+                    types Our company can offer you for purchase</span> ranging from fish, rats, cats, dogs
+                    ending with exotic<span className='white'> animals such as snakes, spider, lynx, cracadily and even tigers
+                    Having bought any animal from us, you </span> fucking can and buy food for it houses and <span className='white'>any
+                    equipment for your animal Our assortment</span>
+
                 </h4></div>
             </div>
             <div className='infa'>
@@ -24,12 +25,12 @@ function Home(){
                      <img src={korm} width={500} height={300} />
                  </div>
                 <div className='tCorm'>
-                    <p>В нашем асартименте имеются корма для котов собак попугаем грызынок рыбок
-                    все корма высокого качества которые создаются на собственом заводе также  у нас
-                        имеются корма для экзотических животных Все корма делаются из натуральных игридиентов
-                        без добовления химии та ГМО наши корма прошли все мировые иследования
-                        и продаются 85 стран мира в разных ЗОО магазинах если хотите узнать больше
-                        переходите в меню та кликайте на Food или нажмите сюда
+                    <p>In our assortment there are food for cats, dogs, parrot, gnawing fish
+                        all high quality feeds that are created in our own factory are also with us
+                        food for exotic animals is available All food is made from natural ingredients
+                        without the addition of chemicals and GMOs, our feed has passed all the world's research
+                        and are sold in 85 countries of the world in different ZOO stores if you want to know more
+                        go to the menu and click on Food or click here
                     </p>
                 </div>
 
@@ -37,23 +38,22 @@ function Home(){
                     <img src={animal} width={500} height={300} />
                 </div>
                 <div className='tAnimal'>
-                    <p>У нас вы можете заказать любую породы кошки собаки и т д
-                    Имеем свои вальери с лисицами енотами При покупки животное у нас прививается всеми
-                    необходимим привиками вам выдается небольшой пособник по ухоживанию за животным до  1 года
-                    и также по любым вопросам можете обращатся к нам вам провидет профисиональную
-                    консультацию для просмотра перейдите в меню та кликните на Animal или нажмите здесь</p>
+                    <p>Here you can order any breed of cat, dog, etc.
+                        We have our own valieri with raccoons foxes When buying an animal from us, everyone is vaccinated
+                        with the necessary vaccinations, you are given a small animal care guide for up to 1 year
+                        and also for any questions you can contact us to provide you with a professional
+                        consultation to view go to the menu and click on Animal or click here</p>
                 </div>
 
                 <div className='snaraga'>
                     <img src={snaraga} width={500} height={300} />
                 </div>
-                <div className='tSnaraga'>
+                <div className='tSnaraga' >
                     <p>
-                        У нас вы моежете приобрести как для домашних так и для служеюных животных
-                        вещи В асортименте имеются все бля сна для прогулки для еду купания ухаживания животного
-                        для дресеровки и для служюы бронижелеты очки шапки и т д чтоб больше ознакомится перейдите в меню
-                        нажам Toys или нажмите сюда
-
+                        You can buy from us for both pets and service animals
+                        things In the assortment there are all fucking sleep for walking for food bathing animal grooming
+                        for dressing and for service, armored vests, glasses, hats, etc., to learn more, go to the menu
+                        click Toys or click here
 
                     </p>
                 </div>
