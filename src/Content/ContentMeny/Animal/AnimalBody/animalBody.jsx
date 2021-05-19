@@ -2,7 +2,7 @@
 
 import {BrowserRouter, Route} from "react-router-dom";
 
-import Many from "../../../../many";
+import Many from "../../../../Manys/many";
 import './animalBody.css'
 import Dogs from "../MenyAnimal/HomeAnimal/dogs";
 import Cat from "../MenyAnimal/HomeAnimal/cat";
@@ -22,12 +22,7 @@ function AnimalBody(){
             </div>
             <div className='many'>
             <Many/>
-           <p>Єто курс валют</p>
-                <p>API з пріватбанка</p>
-                <p>моежете сортіровать</p>
-                <p>моежете сортіровать</p>
-                <p>моежете сортіровать</p>
-                <p>моежете сортіровать</p>
+
             </div>
 
         </div>
