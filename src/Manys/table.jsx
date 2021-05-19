@@ -7,10 +7,10 @@ const Table=({sortData,contactData,directionSort})=>{
         <div>
             <table>
                 <thead >
-                <th  onClick={()=>{sortData('id')}} >currency</th>
-                <th  onClick={()=>{sortData('firstName')}}>bue</th>
-                <th onClick={()=>{sortData('lastName')}}>sale</th>
-                <th onClick={()=>{sortData('age')}}>currency</th>
+                <th  onClick={()=>{sortData('currency')}} >currency</th>
+                <th  onClick={()=>{sortData('bue')}}>bue</th>
+                <th onClick={()=>{sortData('sale')}}>sale</th>
+                <th onClick={()=>{sortData('currency')}}>currency</th>
 
                 </thead>
 
